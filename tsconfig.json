@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "module": "CommonJS",
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "types": ["node", "jest"],
+        "sourceMap": true // Enable source map generation
+    },
+    "include": ["src/**/*.ts", "tests/**/*.ts"]
+}
