@@ -1,7 +1,7 @@
 import * as _ from 'lodash';
 
 /**
- * Deduplicates objects within an array based on their JSON string representation.
+ * Deduplicates objects within an array based on their "name" and "_id" properties.
  * @param array - The array to deduplicate.
  * @returns The deduplicated array.
  */
